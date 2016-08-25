@@ -3,7 +3,7 @@ BUILD_DIR ?= build
 
 BUILD_FLAGS ?=
 SERVER_FLAGS ?= -p 3000 example
-WATCH_FLAGS ?= example/index.js -p browserify-hmr -o example/bundle.js -dv
+WATCH_FLAGS ?= example/index.js -t babelify -p browserify-hmr -o example/bundle.js -dv
 
 P="\\033[34m[+]\\033[0m"
 

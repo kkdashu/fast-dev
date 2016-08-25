@@ -10,11 +10,6 @@
     "babel",
     "browserify"
   ],
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
-  },
   "author": "kkdashu",
   "license": "ISC",
   "dependencies": {
